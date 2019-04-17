@@ -1,0 +1,47 @@
+spring:
+  application:
+    name: mq-consumer
+  servlet:
+    multipart:
+      max-file-size: 100MB
+      max-request-size: 100MB
+      enabled: true
+  freemarker:
+    suffix: .html
+  datasource:
+    type: com.zaxxer.hikari.HikariDataSource
+    url: jdbc:mysql://127.0.0.1:3306/mqtest?useUnicode=true&characterEncoding=utf8&useSSL=false
+    username: root
+    password: 123456
+  hikari:
+    maximum-pool-size: 20
+    max-lifetime: 30000
+    idle-timeout: 30000
+    data-source-properties:
+      cachePrepStmts: true
+      prepStmtCacheSize: 500
+      prepStmtCacheSqlLimit: 4096
+      useServerPrepStmts: true
+  rabbitmq:
+    host: 192.168.2.52
+    port: 5672
+    username: tim
+    password: tim
+    virtual-host: timtest
+    listener:
+      simple:
+        acknowledge-mode: manual #设置确认模式手工确认
+        concurrency: 3 #消费者最小数量
+        max-concurrency: 10 # 消费者最大数量
+  boot:
+    admin:
+      client:
+        url: http://localhost:8788
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    health:
+      show-details: ALWAYS

@@ -1,0 +1,19 @@
+spring:
+  servlet:
+    multipart:
+      max-file-size: 100MB
+      max-request-size: 100MB
+      enabled: true
+  freemarker:
+    suffix: .html
+  rabbitmq:
+    host: 192.168.2.52
+    port: 5672
+#    addresses: 192.168.2.52:5672,192.168.2.52:5673,192.168.2.52:5674
+    username: tim
+    password: tim
+    virtual-host: timtest
+    listener:
+      #acknowledge-mode: manual #设置确认模式手工确认
+      concurrency: 3 #消费者最小数量
+      max-concurrency: 10 # 消费者最大数量
