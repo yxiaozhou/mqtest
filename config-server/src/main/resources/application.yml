@@ -1,0 +1,9 @@
+server:
+  port: 8769
+  servlet:
+    context-path:  /config
+spring:
+  application:
+    name: config-server
+  profiles:
+    active: native

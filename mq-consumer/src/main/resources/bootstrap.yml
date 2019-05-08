@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: mq-consumer
+  profiles:
+    active: dev
+  cloud:
+    config:
+      uri: http://localhost:8769/config
+      fail-fast: true
