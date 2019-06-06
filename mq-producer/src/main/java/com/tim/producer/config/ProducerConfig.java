@@ -15,20 +15,20 @@ public class ProducerConfig {
         Queue queue = new Queue("myQueue1");
         return queue;
     }
-
-    @Bean
-    public Queue myQueue1() {
-        Queue queue = new Queue("myQueue2");
-        return queue;
-    }
-    @Bean
-    public Queue myQueue2() {
-        Queue queue = new Queue("myQueue3");
-        return queue;
-    }
-    @Bean
-    public Queue myQueue3() {
-        Queue queue = new Queue("myQueue4");
-        return queue;
-    }
+//
+//    @Bean
+//    public Queue myQueue1() {
+//        Queue queue = new Queue("myQueue2");
+//        return queue;
+//    }
+//    @Bean
+//    public Queue myQueue2() {
+//        Queue queue = new Queue("myQueue3");
+//        return queue;
+//    }
+//    @Bean
+//    public Queue myQueue3() {
+//        Queue queue = new Queue("myQueue4");
+//        return queue;
+//    }
 }

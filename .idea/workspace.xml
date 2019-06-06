@@ -2,21 +2,42 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="593b5598-5f4c-4b87-8fab-fbeccbe4da2a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/config-server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server/src/main/java/com/tim/configserver/ConfigServerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server/src/main/resources/config/sso-dev.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mq-consumer/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-order-test/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-order-test/src/main/java/com/tim/ordertest/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-order-test/src/main/java/com/tim/ordertest/config/BaseConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-order-test/src/main/java/com/tim/ordertest/config/TestConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-order-test/src/main/java/com/tim/ordertest/config/TestConfig1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-order-test/src/main/java/com/tim/ordertest/config/TestConfig2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-order-test/src/main/java/com/tim/ordertest/service/CalcProcesseor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-order-test/src/main/java/com/tim/ordertest/service/impl/CallTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-order-test/src/main/java/com/tim/ordertest/service/impl/PlusStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-order-test/src/main/java/com/tim/ordertest/service/impl/ReduceStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mq-consumer/src/main/java/com/tim/consumer/config/MQClientMonitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mq-producer/src/main/java/com/tim/producer/ConfirmCallback/ConfirmCallback1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mq-producer/src/main/java/com/tim/producer/config/InitConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mq-producer/src/main/java/com/tim/producer/config/Rabbitmq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mq-producer/src/main/java/com/tim/producer/config/RabbitmqBean.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mq-consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mq-consumer/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mq-consumer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mq-consumer/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mq-consumer/src/main/resources/generator/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mq-consumer/src/main/resources/generator/generatorConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mq-consumer/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mq-consumer/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mq-consumer/target/classes/com/tim/consumer/config/ConsumerConfig$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/mq-consumer/target/classes/com/tim/consumer/config/ConsumerConfig$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mq-consumer/target/classes/com/tim/consumer/config/ConsumerConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/mq-consumer/target/classes/com/tim/consumer/config/ConsumerConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mq-consumer/target/classes/generator/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mq-consumer/target/classes/generator/generatorConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mq-producer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mq-producer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mq-producer/src/main/java/com/tim/producer/config/ProducerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/mq-producer/src/main/java/com/tim/producer/config/ProducerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mq-producer/src/main/java/com/tim/producer/config/ProducerDelayConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/mq-producer/src/main/java/com/tim/producer/config/ProducerDelayConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mq-producer/src/main/java/com/tim/producer/config/ProducerTopicConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/mq-producer/src/main/java/com/tim/producer/config/ProducerTopicConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mq-producer/src/main/java/com/tim/producer/config/RabbitMessageCoverteConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/mq-producer/src/main/java/com/tim/producer/config/RabbitMessageCoverteConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mq-producer/src/main/java/com/tim/producer/sender/Sender1.java" beforeDir="false" afterPath="$PROJECT_DIR$/mq-producer/src/main/java/com/tim/producer/sender/Sender1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mq-producer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mq-producer/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mq-producer/src/test/java/SenderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/mq-producer/src/test/java/SenderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mq-producer/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mq-producer/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mq-producer/target/classes/com/tim/producer/config/ProducerConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/mq-producer/target/classes/com/tim/producer/config/ProducerConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mq-producer/target/classes/com/tim/producer/config/ProducerDelayConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/mq-producer/target/classes/com/tim/producer/config/ProducerDelayConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mq-producer/target/classes/com/tim/producer/config/ProducerTopicConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/mq-producer/target/classes/com/tim/producer/config/ProducerTopicConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mq-producer/target/classes/com/tim/producer/config/RabbitMessageCoverteConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/mq-producer/target/classes/com/tim/producer/config/RabbitMessageCoverteConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mq-producer/target/classes/com/tim/producer/sender/Sender1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/mq-producer/target/classes/com/tim/producer/sender/Sender1$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mq-producer/target/classes/com/tim/producer/sender/Sender1.class" beforeDir="false" afterPath="$PROJECT_DIR$/mq-producer/target/classes/com/tim/producer/sender/Sender1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mq-producer/target/test-classes/SenderTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/mq-producer/target/test-classes/SenderTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -26,6 +47,7 @@
     <ignored path="$PROJECT_DIR$/boot-admin/target/" />
     <ignored path="$PROJECT_DIR$/thread-test/target/" />
     <ignored path="$PROJECT_DIR$/config-server/target/" />
+    <ignored path="$PROJECT_DIR$/config-order-test/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,35 +57,68 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config-server/src/main/java/com/tim/configserver/ConfigServerApplication.java">
+        <entry file="file://$PROJECT_DIR$/config-order-test/src/main/java/com/tim/ordertest/config/TestConfig2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="484">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config-order-test/src/main/java/com/tim/ordertest/service/CalcProcesseor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config-order-test/src/main/java/com/tim/ordertest/service/impl/CallTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="9" selection-start-line="9" selection-end-line="9" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#157#158#0" expanded="true" />
-                <element signature="e#231#232#0" expanded="true" />
+                <element signature="e#294#295#0" expanded="true" />
+                <element signature="e#342#343#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mq-consumer/src/main/resources/application.yml">
+        <entry file="file://$PROJECT_DIR$/config-order-test/src/main/java/com/tim/ordertest/service/impl/PlusStrategy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="22" />
+            <state relative-caret-position="110">
+              <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mq-consumer/src/main/java/com/tim/consumer/ConsumerApplication.java">
+        <entry file="file://$PROJECT_DIR$/config-order-test/src/main/java/com/tim/ordertest/Application.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="303">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="176">
+              <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
               <folding>
-                <element signature="e#529#530#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config-order-test/src/main/java/com/tim/ordertest/service/impl/ReduceStrategy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -72,35 +127,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mq-consumer/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="471">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="484">
+              <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="26" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/mq-consumer/src/main/java/com/tim/consumer/config/ConsumerConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="581">
-              <caret line="110" selection-start-line="110" selection-end-line="110" />
+            <state relative-caret-position="572">
+              <caret line="37" column="88" selection-start-line="37" selection-start-column="88" selection-end-line="37" selection-end-column="88" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config-server/src/main/resources/config/mq-consumer-dev.yml">
+        <entry file="file://$PROJECT_DIR$/mq-consumer/src/main/java/com/tim/consumer/config/ConsumerTopicConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="404">
-              <caret line="47" column="26" selection-start-line="47" selection-start-column="26" selection-end-line="47" selection-end-column="26" />
+            <state relative-caret-position="220">
+              <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="31" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/mq-consumer/src/main/resources/bootstrap.yml">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mq-consumer/src/main/java/com/tim/consumer/config/ConsumerMultipleConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+            <state relative-caret-position="110">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -110,6 +165,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -131,6 +187,8 @@
       <find>Update_By_Example_Where_Clause</find>
       <find>ThreadPoolExecutor</find>
       <find>config</find>
+      <find>sendHello</find>
+      <find>======</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -139,32 +197,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/mq-consumer/src/main/java/com/tim/consumer/config/ProducerConfig.java" />
-        <option value="$PROJECT_DIR$/mq-producer/src/main/java/com/tim/producer/config/ConsumerConfig.java" />
-        <option value="$PROJECT_DIR$/mq-producer/src/main/java/com/tim/producer/config/RabbitMessageCoverteConfig.java" />
-        <option value="$PROJECT_DIR$/mq-producer/src/main/java/com/tim/producer/config/ProducerTopicConfig.java" />
-        <option value="$PROJECT_DIR$/mq-consumer/src/main/java/com/tim/consumer/config/ConsumerTopicConfig.java" />
-        <option value="$PROJECT_DIR$/mq-consumer/src/main/java/com/tim/consumer/reciver/TopicListener.java" />
-        <option value="$PROJECT_DIR$/mq-consumer/src/main/java/com/tim/consumer/config/ConsumerMultipleConfig.java" />
-        <option value="$PROJECT_DIR$/mq-consumer/src/main/java/com/tim/consumer/reciver/WorkReceiver.java" />
-        <option value="$PROJECT_DIR$/mq-consumer/src/main/java/com/tim/consumer/reciver/DelayListener.java" />
-        <option value="$PROJECT_DIR$/mq-consumer/src/main/java/com/tim/consumer/config/RabbitMessageConvertConfig.java" />
-        <option value="$PROJECT_DIR$/mq-producer/src/main/java/com/tim/producer/config/ProducerDelayConfig.java" />
-        <option value="$PROJECT_DIR$/mq-producer/src/main/java/com/tim/producer/config/ProducerConfig.java" />
-        <option value="$PROJECT_DIR$/mq-producer/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/mq-producer/src/test/java/TestHutool.java" />
-        <option value="$PROJECT_DIR$/mq-consumer/src/main/java/com/tim/consumer/service/TestService.java" />
-        <option value="$PROJECT_DIR$/mq-consumer/src/main/java/com/tim/consumer/ConsumerApplication.java" />
-        <option value="$PROJECT_DIR$/mq-producer/src/test/java/SenderTest.java" />
-        <option value="$PROJECT_DIR$/mq-producer/src/main/java/com/tim/producer/ProducerApplication.java" />
-        <option value="$PROJECT_DIR$/mq-consumer/src/main/resources/mybatis/mapper/TestDataMapper.xml" />
-        <option value="$PROJECT_DIR$/mq-consumer/src/main/java/com/tim/consumer/domain/TestData.java" />
-        <option value="$PROJECT_DIR$/mq-producer/src/test/java/TxTest.java" />
-        <option value="$PROJECT_DIR$/mq-producer/src/test/java/TxTest1.java" />
-        <option value="$PROJECT_DIR$/boot-admin/pom.xml" />
         <option value="$PROJECT_DIR$/boot-admin/src/main/java/com/tim/bootadmin/BootAdminApplication.java" />
         <option value="$PROJECT_DIR$/boot-admin/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/mq-producer/src/main/java/com/tim/producer/sender/Sender1.java" />
         <option value="$PROJECT_DIR$/mq-consumer/src/main/java/com/tim/consumer/reciver/HelloListener.java" />
         <option value="$PROJECT_DIR$/mq-consumer/src/main/java/com/tim/consumer/config/ConsumerConfig.java" />
         <option value="$PROJECT_DIR$/mq-consumer/src/main/resources/generator/generatorConfig.xml" />
@@ -181,15 +215,39 @@
         <option value="$PROJECT_DIR$/thread-test/src/test/java/com/tim/threadtest/TestScheduledThreadPool.java" />
         <option value="$PROJECT_DIR$/thread-test/src/test/java/com/tim/threadtest/TestForkJoinPool.java" />
         <option value="$PROJECT_DIR$/thread-test/src/test/java/com/tim/threadtest/TestCallable.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/config-server/pom.xml" />
         <option value="$PROJECT_DIR$/config-server/src/main/java/com/tim/configserver/ConfigServerApplication.java" />
         <option value="$PROJECT_DIR$/config-server/src/main/resources/config/sso-dev.yml" />
         <option value="$PROJECT_DIR$/config-server/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/config-server/src/main/resources/config/mq-consumer.yml" />
         <option value="$PROJECT_DIR$/mq-consumer/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/mq-consumer/pom.xml" />
         <option value="$PROJECT_DIR$/mq-consumer/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/mq-producer/src/test/java/SenderTest.java" />
+        <option value="$PROJECT_DIR$/mq-producer/src/main/java/com/tim/producer/config/ProducerDelayConfig.java" />
+        <option value="$PROJECT_DIR$/mq-producer/src/main/java/com/tim/producer/config/ProducerTopicConfig.java" />
+        <option value="$PROJECT_DIR$/mq-producer/src/main/java/com/tim/producer/config/ProducerConfig.java" />
+        <option value="$PROJECT_DIR$/mq-producer/src/main/java/com/tim/producer/ConfirmCallback/ConfirmCallback1.java" />
+        <option value="$PROJECT_DIR$/mq-producer/src/main/java/com/tim/producer/sender/Sender1.java" />
+        <option value="$PROJECT_DIR$/mq-producer/src/main/java/com/tim/producer/config/RabbitMqConfig.java" />
+        <option value="$PROJECT_DIR$/mq-producer/src/main/java/com/tim/producer/config/RabbitMessageCoverteConfig.java" />
+        <option value="$PROJECT_DIR$/mq-producer/src/main/java/com/tim/producer/config/Rabbitmq.java" />
+        <option value="$PROJECT_DIR$/mq-producer/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/mq-producer/src/main/java/com/tim/producer/config/InitConfig.java" />
+        <option value="$PROJECT_DIR$/mq-producer/src/main/java/com/tim/producer/config/RabbitmqBean.java" />
+        <option value="$PROJECT_DIR$/mq-consumer/src/main/java/com/tim/consumer/config/MQClientMonitor.java" />
+        <option value="$PROJECT_DIR$/config-order-test/src/main/java/com/tim/ordertest/config/TestCOnfigf.java" />
+        <option value="$PROJECT_DIR$/config-order-test/src/main/java/com/tim/ordertest/Application.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/mq-producer/pom.xml" />
+        <option value="$PROJECT_DIR$/mq-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/config-order-test/src/main/java/com/tim/ordertest/config/TestConfig.java" />
+        <option value="$PROJECT_DIR$/config-order-test/src/main/java/com/tim/ordertest/config/TestConfig1.java" />
+        <option value="$PROJECT_DIR$/config-order-test/src/main/java/com/tim/ordertest/config/BaseConfig.java" />
+        <option value="$PROJECT_DIR$/config-order-test/src/main/java/com/tim/ordertest/config/TestConfig2.java" />
+        <option value="$PROJECT_DIR$/config-order-test/src/main/java/com/tim/ordertest/service/CalcProcesseor.java" />
+        <option value="$PROJECT_DIR$/config-order-test/src/main/java/com/tim/ordertest/service/impl/PlusStrategy.java" />
+        <option value="$PROJECT_DIR$/config-order-test/src/main/java/com/tim/ordertest/service/impl/ReduceStrategy.java" />
+        <option value="$PROJECT_DIR$/config-order-test/src/main/java/com/tim/ordertest/service/impl/CallTest.java" />
       </list>
     </option>
   </component>
@@ -235,6 +293,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -245,77 +304,101 @@
             <path>
               <item name="mqtest" type="b2602c69:ProjectViewProjectNode" />
               <item name="mqtest" type="462c0819:PsiDirectoryNode" />
-              <item name="config-server" type="462c0819:PsiDirectoryNode" />
+              <item name="config-order-test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mqtest" type="b2602c69:ProjectViewProjectNode" />
               <item name="mqtest" type="462c0819:PsiDirectoryNode" />
-              <item name="config-server" type="462c0819:PsiDirectoryNode" />
+              <item name="config-order-test" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mqtest" type="b2602c69:ProjectViewProjectNode" />
               <item name="mqtest" type="462c0819:PsiDirectoryNode" />
-              <item name="config-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mqtest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mqtest" type="462c0819:PsiDirectoryNode" />
-              <item name="config-server" type="462c0819:PsiDirectoryNode" />
+              <item name="config-order-test" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mqtest" type="b2602c69:ProjectViewProjectNode" />
               <item name="mqtest" type="462c0819:PsiDirectoryNode" />
-              <item name="config-server" type="462c0819:PsiDirectoryNode" />
+              <item name="config-order-test" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="configserver" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mqtest" type="b2602c69:ProjectViewProjectNode" />
               <item name="mqtest" type="462c0819:PsiDirectoryNode" />
-              <item name="config-server" type="462c0819:PsiDirectoryNode" />
+              <item name="config-order-test" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ordertest" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mqtest" type="b2602c69:ProjectViewProjectNode" />
               <item name="mqtest" type="462c0819:PsiDirectoryNode" />
-              <item name="config-server" type="462c0819:PsiDirectoryNode" />
+              <item name="config-order-test" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ordertest" type="462c0819:PsiDirectoryNode" />
               <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mqtest" type="b2602c69:ProjectViewProjectNode" />
               <item name="mqtest" type="462c0819:PsiDirectoryNode" />
-              <item name="mq-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="config-order-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ordertest" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mqtest" type="b2602c69:ProjectViewProjectNode" />
               <item name="mqtest" type="462c0819:PsiDirectoryNode" />
-              <item name="mq-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="config-order-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ordertest" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mqtest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mqtest" type="462c0819:PsiDirectoryNode" />
+              <item name="config-server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mqtest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mqtest" type="462c0819:PsiDirectoryNode" />
+              <item name="mq-producer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mqtest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mqtest" type="462c0819:PsiDirectoryNode" />
+              <item name="thread-test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mqtest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mqtest" type="462c0819:PsiDirectoryNode" />
+              <item name="thread-test" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mqtest" type="b2602c69:ProjectViewProjectNode" />
               <item name="mqtest" type="462c0819:PsiDirectoryNode" />
-              <item name="mq-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="thread-test" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mqtest" type="b2602c69:ProjectViewProjectNode" />
               <item name="mqtest" type="462c0819:PsiDirectoryNode" />
-              <item name="mq-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="thread-test" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -323,52 +406,9 @@
             <path>
               <item name="mqtest" type="b2602c69:ProjectViewProjectNode" />
               <item name="mqtest" type="462c0819:PsiDirectoryNode" />
-              <item name="mq-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="thread-test" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="consumer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mqtest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mqtest" type="462c0819:PsiDirectoryNode" />
-              <item name="mq-consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mqtest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mqtest" type="462c0819:PsiDirectoryNode" />
-              <item name="thread-test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mqtest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mqtest" type="462c0819:PsiDirectoryNode" />
-              <item name="thread-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mqtest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mqtest" type="462c0819:PsiDirectoryNode" />
-              <item name="thread-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mqtest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mqtest" type="462c0819:PsiDirectoryNode" />
-              <item name="thread-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mqtest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mqtest" type="462c0819:PsiDirectoryNode" />
-              <item name="thread-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="threadtest" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -377,7 +417,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -389,22 +428,23 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557296546868" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Java8InAction" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559803003070" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../springboot-bucket/springboot-rabbitmq" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="threadtest" />
-      <recent name="com.tim.threadtest" />
-      <recent name="" />
+      <recent name="com.tim.ordertest.service.impl" />
+      <recent name="com.tim.ordertest.config" />
+      <recent name="com.tim.ordertest" />
       <recent name="com.tim.consumer.config" />
-      <recent name="com.tim.consumer.reciver" />
+      <recent name="com.tim.producer.ConfirmCallback" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\code_mso\mqtest\thread-test\src\main\resources" />
@@ -425,13 +465,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ConsumerApplication">
-    <configuration name="TestCallable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tim.threadtest.TestCallable" />
-      <module name="thread-test" />
+  <component name="RunManager" selected="Spring Boot.Application">
+    <configuration name="TestConfig2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tim.ordertest.config.TestConfig2" />
+      <module name="config-order-test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.tim.threadtest.*" />
+          <option name="PATTERN" value="com.tim.ordertest.config.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -439,65 +479,59 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestForkJoinPool" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tim.threadtest.TestForkJoinPool" />
-      <module name="thread-test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.tim.threadtest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="SenderTest.testRabbit1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mqproducer" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SenderTest" />
+      <option name="METHOD_NAME" value="testRabbit1" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestScheduledThreadPool" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tim.threadtest.TestScheduledThreadPool" />
-      <module name="thread-test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.tim.threadtest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="SenderTest.testRabbit3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mqproducer" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SenderTest" />
+      <option name="METHOD_NAME" value="testRabbit3" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="config-server" />
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="config-order-test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.tim.configserver.*" />
+          <option name="PATTERN" value="com.tim.ordertest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tim.configserver.ConfigServerApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tim.ordertest.Application" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="mqconsumer" />
+    <configuration name="ProducerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="mqproducer" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.tim.consumer.*" />
+          <option name="PATTERN" value="com.tim.producer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tim.consumer.ConsumerApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tim.producer.ProducerApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.ConsumerApplication" />
-        <item itemvalue="Spring Boot.ConfigServerApplication" />
-        <item itemvalue="Application.TestCallable" />
-        <item itemvalue="Application.TestForkJoinPool" />
-        <item itemvalue="Application.TestScheduledThreadPool" />
+        <item itemvalue="Spring Boot.Application" />
+        <item itemvalue="Application.TestConfig2" />
+        <item itemvalue="JUnit.SenderTest.testRabbit1" />
+        <item itemvalue="Spring Boot.ProducerApplication" />
+        <item itemvalue="JUnit.SenderTest.testRabbit3" />
       </list>
     </recent_temporary>
   </component>
@@ -525,50 +559,68 @@
       <workItem from="1556518833854" duration="1809000" />
       <workItem from="1556587782751" duration="22000" />
       <workItem from="1557105457699" duration="8709000" />
-      <workItem from="1557287373839" duration="3950000" />
+      <workItem from="1557287373839" duration="11058000" />
+      <workItem from="1557902535593" duration="596000" />
+      <workItem from="1557906197495" duration="3837000" />
+      <workItem from="1557985601537" duration="830000" />
+      <workItem from="1557999405082" duration="2276000" />
+      <workItem from="1558005480245" duration="941000" />
+      <workItem from="1558055972575" duration="1085000" />
+      <workItem from="1558317153017" duration="3248000" />
+      <workItem from="1559096680013" duration="1664000" />
+      <workItem from="1559178477290" duration="1611000" />
+      <workItem from="1559789590703" duration="2307000" />
     </task>
+    <task id="LOCAL-00001" summary="发发发">
+      <created>1557296640300</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1557296640300</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TxTest_testTxA - 2019.04.15 at 17h 42m 57s.xml">
-      <configuration name="TxTest.testTxA" configurationId="JUnit" />
+    <history-entry file="SenderTest_testRabbit1 - 2019.05.16 at 11h 53m 05s.xml">
+      <configuration name="SenderTest.testRabbit1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TxTest1_testTxB - 2019.04.15 at 17h 58m 25s.xml">
-      <configuration name="TxTest1.testTxB" configurationId="JUnit" />
+    <history-entry file="SenderTest_testRabbit1 - 2019.05.16 at 11h 58m 24s.xml">
+      <configuration name="SenderTest.testRabbit1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TxTest1_testTxB - 2019.04.15 at 17h 58m 58s.xml">
-      <configuration name="TxTest1.testTxB" configurationId="JUnit" />
+    <history-entry file="SenderTest_testRabbit1 - 2019.05.16 at 11h 58m 39s.xml">
+      <configuration name="SenderTest.testRabbit1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TxTest1_testTxB - 2019.04.15 at 17h 59m 56s.xml">
-      <configuration name="TxTest1.testTxB" configurationId="JUnit" />
+    <history-entry file="SenderTest_testRabbit3 - 2019.05.16 at 11h 59m 47s.xml">
+      <configuration name="SenderTest.testRabbit3" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TxTest1_testTxA - 2019.04.15 at 18h 00m 43s.xml">
-      <configuration name="TxTest1.testTxA" configurationId="JUnit" />
+    <history-entry file="SenderTest_testRabbit3 - 2019.05.16 at 12h 02m 00s.xml">
+      <configuration name="SenderTest.testRabbit3" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TxTest1_testTxB - 2019.04.15 at 18h 01m 08s.xml">
-      <configuration name="TxTest1.testTxB" configurationId="JUnit" />
+    <history-entry file="SenderTest_testRabbit1 - 2019.05.16 at 17h 55m 08s.xml">
+      <configuration name="SenderTest.testRabbit1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TxTest_testTxB - 2019.04.15 at 18h 01m 52s.xml">
-      <configuration name="TxTest.testTxB" configurationId="JUnit" />
+    <history-entry file="SenderTest_testRabbit1 - 2019.05.16 at 19h 23m 15s.xml">
+      <configuration name="SenderTest.testRabbit1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TxTest1_testTxA - 2019.04.15 at 18h 02m 13s.xml">
-      <configuration name="TxTest1.testTxA" configurationId="JUnit" />
+    <history-entry file="SenderTest_testRabbit1 - 2019.05.17 at 09h 22m 23s.xml">
+      <configuration name="SenderTest.testRabbit1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TxTest1_testTxB - 2019.04.15 at 18h 02m 50s.xml">
-      <configuration name="TxTest1.testTxB" configurationId="JUnit" />
+    <history-entry file="SenderTest_testRabbit1 - 2019.05.17 at 09h 23m 23s.xml">
+      <configuration name="SenderTest.testRabbit1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SenderTest_testRabbit1 - 2019.04.17 at 13h 44m 00s.xml">
+    <history-entry file="SenderTest_testRabbit1 - 2019.05.17 at 09h 25m 54s.xml">
       <configuration name="SenderTest.testRabbit1" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="101004000" />
+    <option name="totallyTimeSpent" value="126507000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1607" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25016162" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27278605" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="JRebel" order="3" side_tool="true" />
@@ -578,17 +630,17 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info id="Web" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.33146068" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.38020247" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.42857143" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.33070865" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.43982002" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.27896512" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.31946006" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49903038" weight="0.31946006" />
       <window_info anchor="bottom" id="Docker" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32932165" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50096965" side_tool="true" weight="0.31946006" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32845894" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Version Control" order="13" />
       <window_info anchor="bottom" id="JRebel Executor" order="14" />
@@ -605,10 +657,15 @@
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" id="Bean Validation" order="9" />
       <window_info anchor="right" id="SciView" order="10" />
+      <window_info anchor="right" id="PlantUML" order="11" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="发发发" />
+    <option name="LAST_COMMIT_MESSAGE" value="发发发" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -643,368 +700,28 @@
           <properties />
           <option name="timeStamp" value="17" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/mq-producer/src/main/java/com/tim/producer/ConfirmCallback/ConfirmCallback1.java</url>
+          <line>11</line>
+          <properties />
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/mq-producer/src/main/java/com/tim/producer/config/RabbitmqBean.java</url>
+          <line>23</line>
+          <properties />
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/mq-producer/src/main/java/com/tim/producer/config/RabbitmqBean.java</url>
+          <line>33</line>
+          <properties />
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/time/format/DateTimeFormatter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="534" column="36" selection-start-line="534" selection-start-column="36" selection-end-line="534" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/time/LocalDate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="136" column="19" selection-start-line="136" selection-start-column="19" selection-end-line="136" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mq-consumer/src/main/resources/mybatis/mapper/UnallocatedDataMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1738">
-          <caret line="79" column="11" selection-start-line="79" selection-start-column="11" selection-end-line="79" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mq-producer/src/test/java/TxTest1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="40" column="69" selection-start-line="37" selection-start-column="8" selection-end-line="40" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/UUID.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="103" column="12" selection-start-line="103" selection-start-column="12" selection-end-line="103" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mq-producer/src/test/java/TxTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="32" column="6" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mq-consumer/src/main/java/com/tim/consumer/reciver/HelloListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="726">
-          <caret line="42" column="60" selection-start-line="42" selection-start-column="60" selection-end-line="42" selection-end-column="60" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mq-producer/src/test/java/SdfTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="814">
-          <caret line="46" column="34" selection-start-line="46" selection-start-column="34" selection-end-line="46" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mq-producer/src/test/java/TimeUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2200">
-          <caret line="115" column="19" selection-start-line="115" selection-start-column="19" selection-end-line="115" selection-end-column="19" />
-          <folding>
-            <element signature="e#4849#4850#0" expanded="true" />
-            <element signature="e#4938#4939#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mq-producer/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boot-admin/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mq-consumer/src/main/java/com/tim/consumer/config/ConsumerConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1188">
-          <caret line="67" column="1" selection-start-line="67" selection-start-column="1" selection-end-line="67" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mq-producer/src/test/java/TTT.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="16" column="54" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boot-admin/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thread-test/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thread-test/src/test/java/threadtest/ThreadTestApplication.java" />
-    <entry file="file://$PROJECT_DIR$/mqtest.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thread-test/src/main/java/com/tim/threadtest/ThreadTestApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thread-test/src/test/java/com/tim/threadtest/TestScheduledThreadPool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/stream/LongStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="821" column="21" selection-start-line="821" selection-start-column="21" selection-end-line="821" selection-end-column="21" />
-          <folding>
-            <element signature="e#27736#27737#0" expanded="true" />
-            <element signature="e#27827#27828#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thread-test/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thread-test/src/test/java/com/tim/threadtest/TestForkJoinPool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-198">
-          <caret line="15" column="76" selection-start-line="15" selection-start-column="76" selection-end-line="15" selection-end-column="76" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/Maven20181217/repository/cn/hutool/hutool-all/4.5.3/hutool-all-4.5.3.jar!/cn/hutool/core/thread/ThreadFactoryBuilder.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/concurrent/Executor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="127" column="17" selection-start-line="127" selection-start-column="17" selection-end-line="127" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/concurrent/ArrayBlockingQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="47" column="22" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/concurrent/ForkJoinTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="696" column="33" selection-start-line="696" selection-start-column="33" selection-end-line="696" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/concurrent/ExecutorService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="136" column="26" lean-forward="true" selection-start-line="136" selection-start-column="26" selection-end-line="136" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/concurrent/AbstractExecutorService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="70" column="58" lean-forward="true" selection-start-line="70" selection-start-column="58" selection-end-line="70" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/concurrent/ThreadPoolExecutor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="322" column="45" lean-forward="true" selection-start-line="322" selection-start-column="45" selection-end-line="322" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thread-test/src/test/java/com/tim/threadtest/TestCountDownLatch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="792">
-          <caret line="36" column="21" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
-          <folding>
-            <element signature="e#710#711#0" expanded="true" />
-            <element signature="e#744#745#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thread-test/src/test/java/com/tim/threadtest/TestThread8Monitor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1122">
-          <caret line="61" column="5" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thread-test/src/test/java/com/tim/threadtest/TestThreadPool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="27" column="38" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config-server/config-server.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://E:/Maven20181217/repository/org/springframework/cloud/spring-cloud-config-server/2.1.0.RELEASE/spring-cloud-config-server-2.1.0.RELEASE.pom">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://E:/Maven20181217/repository/org/springframework/boot/spring-boot-dependencies/2.0.8.RELEASE/spring-boot-dependencies-2.0.8.RELEASE.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="235" column="50" selection-start-line="235" selection-start-column="44" selection-end-line="235" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/Maven20181217/repository/org/springframework/boot/spring-boot-starter-parent/2.0.8.RELEASE/spring-boot-starter-parent-2.0.8.RELEASE.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="36" lean-forward="true" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boot-admin/src/main/java/com/tim/bootadmin/BootAdminApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="9" selection-end-column="69" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thread-test/src/test/java/com/tim/threadtest/TestCallable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="55" selection-start-line="10" selection-start-column="55" selection-end-line="10" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config-server/src/main/resources/config/sso-dev.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config-server/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config-server/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mq-consumer/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="471">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="581">
-          <caret line="110" selection-start-line="110" selection-end-line="110" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config-server/src/main/java/com/tim/configserver/ConfigServerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#157#158#0" expanded="true" />
-            <element signature="e#231#232#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mq-consumer/src/main/java/com/tim/consumer/ConsumerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="e#529#530#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mq-consumer/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config-server/src/main/resources/config/mq-consumer-dev.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="47" column="26" selection-start-line="47" selection-start-column="26" selection-end-line="47" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/Maven20181217/repository/org/springframework/boot/spring-boot/2.0.8.RELEASE/spring-boot-2.0.8.RELEASE.jar!/org/springframework/boot/SpringApplication.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="144" selection-start-line="144" selection-end-line="144" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://E:/Maven20181217/repository/org/springframework/cloud/spring-cloud-context/2.0.0.RELEASE/spring-cloud-context-2.0.0.RELEASE.jar!/org/springframework/cloud/bootstrap/config/PropertySourceBootstrapConfiguration.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="219">
@@ -1019,10 +736,356 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/thread-test/src/test/java/com/tim/threadtest/TestCallable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="55" selection-start-line="10" selection-start-column="55" selection-end-line="10" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thread-test/src/test/java/com/tim/threadtest/TestThreadPool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="481">
+          <caret line="27" column="38" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mq-consumer/src/main/java/com/tim/consumer/domain/UnallocatedData.java.1" />
+    <entry file="file://$PROJECT_DIR$/mq-consumer/src/main/java/com/tim/consumer/domain/UnallocatedDataExample.java" />
+    <entry file="file://$PROJECT_DIR$/mq-consumer/src/main/java/com/tim/consumer/domain/UnallocatedData.java" />
+    <entry file="file://$PROJECT_DIR$/mq-consumer/src/main/java/com/tim/consumer/mapper/UnallocatedDataMapper.java" />
+    <entry file="file://$PROJECT_DIR$/config-server/src/main/resources/config/mq-consumer-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1034">
+          <caret line="47" column="26" selection-start-line="47" selection-start-column="26" selection-end-line="47" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-server/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/mq-consumer/src/main/resources/bootstrap.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
-          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mq-consumer/src/main/java/com/tim/consumer/reciver/DelayListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mq-consumer/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/Maven20181217/repository/org/springframework/amqp/spring-rabbit/2.0.11.RELEASE/spring-rabbit-2.0.11.RELEASE.jar!/org/springframework/amqp/rabbit/core/RabbitTemplate.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2200">
+          <caret line="222" column="16" selection-start-line="222" selection-start-column="16" selection-end-line="222" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mq-producer/src/test/java/TestHutool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mq-consumer/src/main/java/com/tim/consumer/reciver/HelloListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="20" column="79" selection-start-line="20" selection-start-column="61" selection-end-line="20" selection-end-column="79" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mq-consumer/src/main/java/com/tim/consumer/config/RabbitMessageConvertConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/Maven20181217/repository/org/springframework/boot/spring-boot-autoconfigure/2.0.8.RELEASE/spring-boot-autoconfigure-2.0.8.RELEASE.jar!/org/springframework/boot/autoconfigure/amqp/RabbitAutoConfiguration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="79" column="30" selection-start-line="79" selection-start-column="30" selection-end-line="79" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mq-producer/src/main/java/com/tim/producer/ProducerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mq-producer/src/test/java/SenderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+          <folding>
+            <element signature="e#716#717#0" expanded="true" />
+            <element signature="e#751#752#0" expanded="true" />
+            <element signature="e#793#794#0" expanded="true" />
+            <element signature="e#827#828#0" expanded="true" />
+            <element signature="e#869#870#0" expanded="true" />
+            <element signature="e#904#905#0" expanded="true" />
+            <element signature="e#1244#1245#0" expanded="true" />
+            <element signature="e#1281#1282#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mq-producer/src/main/java/com/tim/producer/ConfirmCallback/ConfirmCallback1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mq-producer/src/main/java/com/tim/producer/config/ProducerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="21" column="15" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mq-producer/src/main/java/com/tim/producer/config/ProducerDelayConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mq-producer/src/main/java/com/tim/producer/config/RabbitmqBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="33" column="20" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mq-producer/src/main/java/com/tim/producer/config/InitConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="10" column="28" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mq-producer/src/main/java/com/tim/producer/sender/Sender1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="792">
+          <caret line="47" column="62" selection-start-line="47" selection-start-column="62" selection-end-line="47" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mq-producer/src/main/java/com/tim/producer/config/RabbitMessageCoverteConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mq-producer/src/main/java/com/tim/producer/config/ProducerTopicConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="27" column="42" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mq-producer/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mq-producer/src/main/java/com/tim/producer/config/Rabbitmq.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mq-consumer/src/main/java/com/tim/consumer/config/MQClientMonitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2222">
+          <caret line="114" column="25" selection-start-line="114" selection-start-column="25" selection-end-line="114" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot-admin/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-66" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thread-test/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thread-test/src/main/java/com/tim/threadtest/ThreadTestApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="8" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-order-test/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="70" column="21" selection-start-line="70" selection-start-column="21" selection-end-line="70" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-order-test/src/main/java/com/tim/ordertest/config/TestConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-order-test/src/main/java/com/tim/ordertest/config/TestConfig1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-order-test/src/main/java/com/tim/ordertest/config/BaseConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mq-producer/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="19" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mq-consumer/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="26" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mq-consumer/src/main/java/com/tim/consumer/config/ConsumerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="37" column="88" selection-start-line="37" selection-start-column="88" selection-end-line="37" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mq-consumer/src/main/java/com/tim/consumer/config/ConsumerTopicConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="31" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mq-consumer/src/main/java/com/tim/consumer/config/ConsumerMultipleConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-order-test/src/main/java/com/tim/ordertest/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-order-test/src/main/java/com/tim/ordertest/service/CalcProcesseor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-order-test/src/main/java/com/tim/ordertest/service/impl/ReduceStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-order-test/src/main/java/com/tim/ordertest/service/impl/PlusStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-order-test/src/main/java/com/tim/ordertest/config/TestConfig2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-order-test/src/main/java/com/tim/ordertest/service/impl/CallTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" selection-start-line="9" selection-end-line="9" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#294#295#0" expanded="true" />
+            <element signature="e#342#343#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1079,7 +1142,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>thread-test</last-edited>
+          <last-edited>config-order-test</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

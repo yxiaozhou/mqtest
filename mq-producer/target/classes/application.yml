@@ -13,7 +13,15 @@ spring:
     username: tim
     password: tim
     virtual-host: timtest
+    publisher-confirms: true #支持发布确认
+    publisher-returns: true  #支持发布返回
+#    host: 172.16.0.223
+#    port: 5672
+#    #    addresses: 192.168.2.52:5672,192.168.2.52:5673,192.168.2.52:5674
+#    username: dev_robot
+#    password: skfdsjhdrtt
+#    virtual-host: dev_robot
     listener:
-      #acknowledge-mode: manual #设置确认模式手工确认
+      acknowledge-mode: manual #设置确认模式手工确认
       concurrency: 3 #消费者最小数量
       max-concurrency: 10 # 消费者最大数量

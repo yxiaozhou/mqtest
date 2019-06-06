@@ -15,9 +15,9 @@ public class SenderTest {
     private Sender1 sender;
     @Test
     public void testRabbit1() {
-        for (int i = 0; i < 100000; i++) {
-            sender.sendHello(i);
-        }
+//        for (int i = 0; i < 100000; i++) {
+            sender.sendHello(123);
+//        }
     }
     @Test
     public void testRabbit2() {

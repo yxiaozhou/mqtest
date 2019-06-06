@@ -2,9 +2,11 @@ package com.tim.producer.sender;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.tim.producer.ConfirmCallback.ConfirmCallback1;
 import com.tim.producer.domain.User;
 import org.springframework.amqp.AmqpException;
 import org.springframework.amqp.core.*;
+import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
@@ -16,7 +18,8 @@ public class Sender1 {
 
     @Autowired
     private AmqpTemplate template;
-
+    @Autowired
+    private RabbitTemplate rabbitTemplate;
     @Autowired
     private ObjectMapper objectMapper;
 
@@ -24,7 +27,12 @@ public class Sender1 {
         User u = new User();
         u.setId(i+"");
         u.setName(i+"_123");
-        template.convertAndSend("myQueue1", u);
+        rabbitTemplate.convertAndSend("myQueue1", u);
+        try {
+            Thread.sleep(100000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
     }
 
     public void sendHello2() {
@@ -48,6 +56,11 @@ public class Sender1 {
         u.setId("1");
         u.setName("123");
         template.convertAndSend("exchange", "topic.message", u);
+        try {
+            Thread.sleep(100000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
     }
 
     public void sendTopic2() {
